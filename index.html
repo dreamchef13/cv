@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8"> <!-- set default chars for utf-8  -->
+  <!-- standard encoding unicode table format
+    this ensures maximum compatibility with other languares -->
+  <!-- the meta also gives information to the web browser about different
+  topics, like the author of the website, the description -->
+  <title>Enrique's Personal Site</title>
+</head>
+
+<body>
+  <table cellspacing="20">
+    <!-- tables for layout of the page -->
+    <tr>
+      <td>
+        <img src="images/P&E-80.jpg" alt="A picture of our wedding photo session" width="132" height="198">
+    <!-- when we source a picture from another website, we depend on them, if their server goes
+  down, our picture wont load, then we can have our images in the project folder -->
+  <!-- I changed the size of my picture manually, there must be a better option -->
+      </td>
+      <td>
+        <h1>Enrique Jose Dominguez Aracena</h1>
+        <!-- <hr size=3 noshade> -->
+        <!-- the horizontal ruler with the attributes of size of 3 pixels of height and noshade -->
+        <p><em>Python and <strong>Web Development</strong> student</em></p>
+        <!--paragraph -->
+        <!--the i tag only italicizes, the em gives meaning, and is
+        best practice -->
+        <!--in the same note, the should us strong instead of b, when
+        we want to add bold style to our texts -->
+        <p>I was born in Manhattan, NY, USA in December 13th, 1991. I live in the
+          Dominican Republic and work as a general manager in
+          <a href="http://www.farmacointernacional.com/"><strom>Farmaco Internacional SRL</strom></a>, a <em>medical products wholesaler
+          </em>. I studied accounting and finance in <a href="https://unapec.edu.do/"><stro>UNAPEC.</stro></a></p>
+          <!-- the anchor tag <a> is used to connect to different websites or pages, it takes href attribute with the url, and a text between the opennig and closing tags to indicate the link -->
+      </td>
+    </tr>
+  </table>
+
+
+  <hr>
+  <h3>Things I am learning:</h3>
+  <p>P, from beginner to advanced including:pandas, tkinter, turtle, create classes</p>
+  <p>Web Development: HTML, CSS, JS, among others</p>
+  <ul>
+      <!-- unordered list, it uses bullet points -->
+    <li>Python</li>
+      <ul>
+          <li>Beginner to advanced.</li>
+          <li>Pandas</li>
+          <li>Tkinter</li>
+          <li>Turtle</li>
+          <li>Create Classes, etc.</li>
+      </ul>
+    <li>Web Development</li>
+      <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>Among others</li>
+      </ul>
+  </ul>
+
+  <hr>
+  <h3>Work experience:</h3>
+  <table cellspacing="10">
+    <thead>
+      <!-- tables have head, body and foot -->
+      <!-- the head is for the headers of the columns -->
+      <tr>
+        <th>Date</th>
+        <!-- table header cells -->
+        <th>Work</th>
+      </tr>
+      <!-- if we delete the thead, tbody and foot, and only write the th and tr, the website will look the same -->
+      <!-- but if we want to change the styling or add functionality to the table is better to separate the elements this way -->
+      <!-- for example: if you want to scroll down the elements of the table and keep the headers up, you need this structure -->
+    </thead>
+    <tbody>
+      <tr>
+        <!-- table row -->
+        <td>2009 - Present</td>
+        <!-- table cell -->
+        <td>General Manager at FARINT</td>
+      </tr>
+      <tr>
+        <td>2022</td>
+        <td>Product developer at FARINT</td>
+      </tr>
+    </tbody>
+    <!-- <tfoot> the head and body are the most common elements of the table
+
+    </tfoot> -->
+    <!-- tables in html -->
+
+  </table>
+  <hr>
+  <h3>Skills:</h3>
+  <table cellspacing="10">
+    <tr>
+      <td>
+        <table>
+          <tr>
+            <td>Dancing</td>
+            <td>⭐⭐⭐⭐⭐</td>
+          </tr>
+          <tr>
+            <td>Cooking</td>
+            <td>⭐⭐⭐⭐⭐</td>
+          </tr>
+        </table>
+      </td>
+
+      <td>
+        <table>
+          <tr>
+            <td>Writing</td>
+            <td>⭐⭐</td>
+          </tr>
+          <tr>
+            <td>Googling</td>
+            <td>⭐⭐⭐⭐⭐</td>
+          </tr>
+        </table>
+
+      </td>
+    </tr>
+  </table>
+
+
+  <hr>
+  <a href="hobbies.html">My hobbies</a>
+  <!-- a link to another html text file in the main folder -->
+  <a href="contacts.html">My contacts</a>
+  <br>
+  <hr>
+  <img src="https://bestarion.com/wp-content/uploads/2021/03/Web-Developer.jpg" alt="A developer image" width="160" height="126">
+  <!-- the image tag, in source it takes urls or local file path of your project -->
+  <!-- the alt attribute is the text that appears is the image doesnt load -->
+</body>
+
+</html>
+
+<style media="screen">
+
+</style>
